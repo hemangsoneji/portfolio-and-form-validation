@@ -1,0 +1,195 @@
+BODY {
+    background-color: lightsteelblue;
+    border: 3px black;
+    color: darkslategray;
+    font-size: 20px;
+}
+
+H1 {
+    text-align: center;
+    border: 300px black;
+    color: darkblue;
+    font-size: 50;
+}
+
+nav {
+    text-align: center;
+    width: 100%;
+}
+
+img {
+    box-sizing: border-box;
+    flex-basis: 25%;
+    height: auto;
+    float: left;
+}
+
+#info {
+    padding-top:50px;
+    box-sizing: border-box;
+    flex-basis: 75%;
+    font-size: 2vw;
+    float: left;
+    color: indigo;
+    text-align: left;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 100px;
+    padding-top: 10px;
+    padding-left: 80px;
+    display:flex;
+    flex-direction: row;
+}
+
+@media (max-width: 800px) {
+    .grid-container {
+      flex-direction: column;
+    }
+  }
+.grid-container>div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 25px;
+}
+
+TABLE,
+TH,
+TD {
+    border: 1px solid midnightblue;
+    font-size: 1.8vw;
+}
+
+tr:nth-child(even) {
+    background-color: orange;
+    color: indigo;
+}
+
+tr:nth-child(odd) {
+    background-color:indigo;
+    color: orange;
+}
+
+H2 {
+    text-align: center;
+    color: blue;
+    padding-top:50px;
+}
+
+#education1{
+    padding-top:100px;
+}
+
+#experience1{
+    padding-top:50px;
+}
+
+.empty{
+    padding-top:100px;
+}
+
+#EDUCATION {
+    text-align: left;
+    background-color: indigo;
+    color: orange;
+    border: 2px solid black;
+    margin: 40px;
+    padding: 10px;
+    font-size: 2.2vw;
+    display:flex;
+}
+
+H3 {
+    text-align: center;
+    color:orange;
+    border-left: solid 10px orange;
+    border-right: solid 10px orange;
+    /* background: darkblue; */
+}
+
+H4 {
+    text-align: left;
+    color: black;
+}
+
+#center {
+    margin-left: auto;
+    margin-right: auto;
+    color: darkblue;
+}
+
+#form {
+    text-align: center;
+    color:indigo;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 120px;
+    padding-top: 10px;
+    padding-left: 320px;
+    display:flex;
+    flex-direction: row;
+}
+@media (max-width: 800px) {
+    .grid-container1 {
+      flex-direction: column;
+    }
+  }
+
+.grid-container1>div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding-top: 100px;
+    padding-left: 180px;
+    padding-right: 100px;
+    display:flex;
+    flex-direction: row;
+}
+@media (max-width: 800px) {
+    .grid-container2 {
+      flex-direction: column;
+    }
+  }
+
+.grid-container2>div {
+    text-align: left;
+    padding: 20px 0;
+    font-size: 20px;
+}
+#coding{
+    text-align: left;
+    border-radius: 50px 15px 15px 50px;
+    border: 5px solid midnightblue;
+    color: orange;
+    background-color: indigo;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#skills{
+    text-align: left;
+    border-radius: 15px;
+    border:5px solid midnightblue;
+    color: orange;
+    background-color: indigo;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#sports{
+    text-align: left;
+    border-radius: 15px 50px 50px 15px;
+    border:5px solid midnightblue;
+    color: orange;
+    background-color: indigo;
+    padding-left: 10px;
+    padding-right: 10px;
+}
